@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello WebController!{% endblock %}
+
+{% block body %}
+    <div class="row">
+        <div class="col border text-center mt-5">
+            <a href="{{path('actions')}}" class="display-4 nav-link">Api</a>
+        </div>
+        <div class="col border  text-center mt-5">
+            <a href="{{path('post_list')}}" class="display-4 nav-link">Web</a>
+        </div>
+    </div>
+{% endblock %}
